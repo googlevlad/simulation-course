@@ -1,0 +1,46 @@
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\FallingSim.exe
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\FallingSim.deps.json
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\FallingSim.runtimeconfig.json
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\FallingSim.dll
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\FallingSim.pdb
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\System.Data.SqlClient.dll
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\System.Windows.Forms.DataVisualization.dll
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.AssemblyInfo.cs
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.csproj.Up2Date
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.dll
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\refint\FallingSim.dll
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.pdb
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.genruntimeconfig.cache
+C:\Users\user\Desktop\ТГУ\3 курс\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\ref\FallingSim.dll
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\FallingSim.exe
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\FallingSim.deps.json
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\FallingSim.runtimeconfig.json
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\FallingSim.dll
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\FallingSim.pdb
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\System.Data.SqlClient.dll
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\System.Windows.Forms.DataVisualization.dll
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.AssemblyInfo.cs
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.csproj.Up2Date
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.dll
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\refint\FallingSim.dll
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.pdb
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\FallingSim.genruntimeconfig.cache
+C:\Users\User\Desktop\лабы\имитационное моделирование\lab1\FallingSim\obj\Debug\net10.0-windows\ref\FallingSim.dll
