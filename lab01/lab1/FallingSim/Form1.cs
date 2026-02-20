@@ -41,9 +41,14 @@ namespace FallingSim
         {
             public double X { get; set; }
             public double Y { get; set; }
+            public double Prev_x { get; set; }
+            public double Prev_y { get; set; }
             public double Vx { get; set; }
             public double Vy { get; set; }
+            public double Prev_Vx { get; set; }
+            public double Prev_Vy { get; set; }
             public double Time { get; set; }
+            public double PrevTime{ get; set; }
             public double MaxY { get; set; }
             public double Dt { get; set; }          
             public Series Series { get; set; }      
@@ -130,7 +135,8 @@ namespace FallingSim
             {
                 Value = 1,
                 Location = new Point(160, 0),
-                Size = new Size(100, 2)
+                Size = new Size(100, 2),
+                DecimalPlaces = 4
             };
 
             lbl_m = new Label
@@ -144,7 +150,8 @@ namespace FallingSim
             {
                 Value = 1,
                 Location = new Point(160, 30),
-                Size = new Size(100, 2)
+                Size = new Size(100, 2),
+                DecimalPlaces =2
             };
 
             lbl_S = new Label
@@ -158,7 +165,8 @@ namespace FallingSim
             {
                 Value = 0.1M,
                 Location = new Point(160, 60),
-                Size = new Size(100, 2)
+                Size = new Size(100, 2),
+                DecimalPlaces = 2
             };
 
             ChrtTrackGraph = new Chart
@@ -197,6 +205,7 @@ namespace FallingSim
             result_table.Columns[2].Name = "t, с";
             result_table.Columns[3].Name = "height, м";
             result_table.Columns[4].Name = "track";
+            result_table.Columns[5].Name = "Speed";
 
             this.Controls.Add(btnClick);
 
@@ -249,7 +258,7 @@ namespace FallingSim
 
                 Series series = new Series
                 {
-                    Name = $"dt={dt:F3}",
+                    Name = $"dt={dt}",
                     ChartType = SeriesChartType.Line,
                     Color = color,
                     BorderWidth = 2,
@@ -265,9 +274,14 @@ namespace FallingSim
                 {
                     X = 0,
                     Y = h0,
+                    Prev_x = 0,
+                    Prev_y = h0,
                     Vx = vx0,
                     Vy = vy0,
+                    Prev_Vx = vx0,
+                    Prev_Vy = vy0,
                     Time = 0,
+                    PrevTime = 0,
                     MaxY = h0,
                     Dt = dt,
                     Series = series,
@@ -290,6 +304,13 @@ namespace FallingSim
             {
                 SimulationState sim = activeSimulations[i];
 
+                    sim.Prev_x = sim.X;
+                    sim.Prev_y = sim.Y;
+                    sim.Prev_Vx = sim.Vx;
+                    sim.Prev_Vy = sim.Vy;
+                    sim.Prev_Vx = sim.X;
+                    sim.PrevTime =sim.Time;
+
                     double v = Math.Sqrt(sim.Vx * sim.Vx + sim.Vy * sim.Vy);
                     double ax = -k * v * sim.Vx;
                     double ay = -g - k * v * sim.Vy;
@@ -307,15 +328,19 @@ namespace FallingSim
                     sim.Series.Points.AddXY(sim.X, sim.Y);
 
                     
-                    if (sim.Y <= 0)
+                    if (sim.Y <=0)
                     {
                         sim.IsFinished = true;
+
+                        double speed = Math.Sqrt(sim.Vx*sim.Vx+sim.Vy*sim.Vy);
  
                                     result_table.Rows.Add(
                                     sim.Dt.ToString("F3"),
                                     sim.X.ToString("F2"),      
                                     sim.Time.ToString("F2"),    
                                     sim.MaxY.ToString("F2"),    
+                                    speed.ToString("F2"),
+
                                     sim.Color.Name
             );
 
